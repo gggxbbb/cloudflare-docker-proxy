@@ -4,9 +4,9 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "docker-hub-proxy.xkeyc.com": "https://registry-1.docker.io",
-  "gcr-hub-proxy.xkeyc.com": "https://gcr.io",
-  "ghcr-hub-proxy.xkeyc.com": "https://ghcr.io",
+  "docker-proxy.gxb.pub": "https://registry-1.docker.io",
+  "gcr-proxy.gxb.pub": "https://gcr.io",
+  "ghcr-proxy.gxb.pub": "https://ghcr.io",
 };
 
 function routeByHosts(host) {
